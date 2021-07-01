@@ -16,4 +16,6 @@ Return `x + 5`.
 """
 domath(x::Number) = x + 5
 
+compute_square(x) = x^2
+
 end # module
