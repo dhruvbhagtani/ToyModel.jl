@@ -5,9 +5,9 @@ struct Grid
      x::Vector
 end
 
-function Grid(nx, Lx)
-    dx = Lx/nx
-    x = LinRange(0, Lx, nx)
+function Grid(nx, x_beg, x_end)
+    dx = (x_end - x_beg)/nx
+    x = LinRange(x_beg, x_end, nx)
     
     return Grid(nx, dx, Lx, x)
 end
