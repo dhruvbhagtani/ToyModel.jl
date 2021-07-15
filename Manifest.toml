@@ -382,7 +382,7 @@ version = "1.0.0"
 deps = ["DocStringExtensions"]
 git-tree-sha1 = "87b5a565ab747cb84dc22b718baa7e3275462bf5"
 repo-rev = "master"
-repo-url = "git@github.com:ClimateFluidPhysics-ANU/MixedLayerThermoclineDynamics.jl.git"
+repo-url = "https://github.com/ClimateFluidPhysics-ANU/MixedLayerThermoclineDynamics.jl"
 uuid = "1d4a6882-6b5f-4564-9c28-3a65b9d963cb"
 version = "0.1.0"
 
